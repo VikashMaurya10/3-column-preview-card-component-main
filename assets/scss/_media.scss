@@ -1,0 +1,19 @@
+@media (min-width:425px) {
+    .cards {
+        display: flex;
+
+        .card {
+            position: relative;
+
+            button {
+                position: absolute;
+                bottom: 30px;
+            }
+        }
+    }
+}
+@media (max-width:1024px){
+    .cards{
+        flex-direction: column;
+    }
+}

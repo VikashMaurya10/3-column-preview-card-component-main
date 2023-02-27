@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    .cards {
+        border-radius: 10px;
+        overflow: hidden;
+
+        .card {
+            min-width: 307px;
+            min-height: 442px;
+            padding: 2.875rem;
+            max-width: 20.4375rem; // 327px;
+            max-height: 31.1875rem; //; 499px;
+        }
+
+        h1 {
+            margin: 41px 0;
+        }
+
+        .sedans {
+            background-color: $Bright-orange;
+
+            button {
+                color: $Bright-orange;
+            }
+        }
+
+        .suvs {
+            background-color: $Dark-cyan;
+
+            button {
+                color: $Dark-cyan ;
+            }
+        }
+
+        .luxury {
+            background-color: $Very-dark-cyan;
+
+            button {
+                color: $Very-dark-cyan;
+            }
+
+        }
+    }
+}
