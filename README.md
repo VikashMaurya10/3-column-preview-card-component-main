@@ -27,7 +27,7 @@ This challenge is very good to learn diffrent layout and I learned media query i
 
 ### Screenshot
 
-- ![](./assets/images/Screenshot.png)
+![](./Screenshot.png)
 
 ### Links
 
